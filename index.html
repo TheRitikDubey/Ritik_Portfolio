@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./Images/avtar-logo2.jpeg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,10 +13,10 @@
 <body>
     <div id="wrapper">
         <div class="nav flex flex-row justify-evenly  mt-8">
-            <div class="nav-name">
+            <div class="nav-name font-semibold">
                 Ritik Dubey
             </div>
-            <div class="nav-items flex flex-row gap-10 ">
+            <div class="nav-items flex flex-row gap-10 font-normal">
                 <a href="#Home">Home</a>
                 <a>About</a>
                 <a>Skills</a>
@@ -44,17 +45,55 @@
                 <div class="ritik-info text-5xl font-bold">Hi, I'm Ritik dubey</div>
                 <div class="ritik-info text-xl mt-4 font-medium">I am a |developer</div>
                 <div class="ritik-info text-base font-light mt-4">Building Software to solve real problems</div>
-                <div class="ritik-info mt-4">
-                    <button class="btn p-4 text-base text-white font-semibold flex gap-3 align-baseline">Contact Me <img src="./Images/c2.png" class="w-5 h-5 contact-logo" alt=""> </button>
+                <div class="ritik-info mt-10">
+                    <button class="btn p-4 text-base text-white font-semibold flex gap-3 align-baseline">Contact Me <i class="w-5 h-6" data-feather="send"></i> </button>
                 </div>
             </div>
             <div class="my-avtar">
-                <img src="./Images/avtar-logo1.jpeg "  class="w-56 h-52 rounded-full" alt="">
+                <div class="home_img justify-self-center order-1">
+                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink" data-tilt>
+                      <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                      </mask>
+                      <g mask="url(#mask0)">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        <image class="home_blob-img  right-0 bg-blue-800 w-48" x="12" y="8" href="./Images/avtar-logo1.jpeg" />
+                      </g>
+                    </svg>
+                  </div>
+        
+                <img src=""  class="w-56 h-52 rounded-full" alt="">
             </div>
         </div>
 
+        <div class="scroll-down flex gap-2 mt-20 align-baseline">
+            <img src="./Images/computer-mouse.png" class="w-6 h-6" alt="">
+            <div class="scroll-text">scroll down</div>
+            <img src="./Images/arrow-down.png" class="w-6 h-6" alt="">
+        </div>
+
+        <div class="about-me mt-40 ml-20">
+            <div class="about text-center text-5xl font-semibold">About Me</div>
+            <div class="intro-line text-center text-sm">My introduction</div>
+            <div class="img-and-info flex flex-row justify-evenly mt-14">
+                <img src="./Images/avtar-logo1.jpeg" class="w-52 h-52 rounded-md" alt="">
+                <div class="my-info w-96">
+                    Hey there,👋 I'm Pranay a 20-year-old CSE undergrad who is passionate about Software Development, UI/UX Design and Product Management. Currently, I'm pursuing my career as a Full Stack Web Developer 👨🏻‍💻 with 3+ years of professional and freelance experience. I share my learnings through speaking engagements and write-ups. ✍🏻
+                </div>
+            </div>
+        </div>
 
     </div>
     
+    <script>
+        feather.replace()
+      </script>
 </body>
 </html>

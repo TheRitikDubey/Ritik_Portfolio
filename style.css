@@ -55,3 +55,17 @@ a:hover{
 .btn:hover{
     background-color: var(--first-color-alt);
 }
+.scroll-down{
+    margin-left: 30%;
+    background-color: var(--first-color-lighter);
+    width: 11rem;
+    padding: 0.3rem;
+    border-radius: 2rem;
+}
+.scroll-down:hover{
+    cursor: pointer;
+    transform: translateY(0.7rem);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
