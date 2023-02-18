@@ -66,6 +66,6 @@ a:hover{
     cursor: pointer;
     transform: translateY(0.7rem);
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
