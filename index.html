@@ -116,7 +116,7 @@
                 <div class="about text-center text-5xl p-4 font-semibold">Skills</div>
                 <div class="intro-line text-center text-base text-slate-500">My technical Skills</div>
                 <div class="skill-grid grid grid-cols-2 max-sm:grid-cols-1 max-sm:-ml-[70px]">
-                    <div class="languages flex pt-6 gap-7 max-sm:gap-3 language">
+                    <div class="languages flex pt-6 gap-7 max-sm:gap-3 language hover:cursor-pointer">
 
                         <img src="./Images/codelogo.svg" class="w-8 h-8 skill-dropdown" alt="">
                         <div class="content">
@@ -125,7 +125,7 @@
                             <div id="myDropdown" class="dropdown-content flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
-                                        <img src="./Images/c++.png" class="w-8 h-8" alt="">
+                                        <img src="./Images/c++.png" class="w-12 h-12" alt="">
                                         <a href="#" class="ml-[60%]">C/C++</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -133,7 +133,7 @@
                                 <!-- java -->
                                 <div>
                                     <div class="flex">
-                                        <img src="./Images/java IMG.gif" class="w-9 h-9" alt="">
+                                        <img src="./Images/java IMG.gif" class="w-12 h-12" alt="">
                                         <a href="#" class="ml-[60%]">JAVA</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -142,7 +142,7 @@
                                 <!-- JavaScript -->
                                 <div>
                                     <div class="flex">
-                                        <img src="./Images/JS IMG.gif" class="w-9 h-9" alt="">
+                                        <img src="./Images/JS IMG.gif" class="w-12 h-12" alt="">
                                         <a href="#" class="ml-[60%]">JavaScript</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -151,7 +151,7 @@
 
                                 <div>
                                     <div class="flex">
-                                        <img src="./Images/Python img.gif" class="w-9 h-9" alt="">
+                                        <img src="./Images/Python img.gif" class="w-12 h-12" alt="">
                                         <a href="#" class="ml-[60%]">Python</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -159,7 +159,7 @@
 
                                 <div>
                                     <div class="flex">
-                                        <img src="./Images/ts img.png" class="w-8 h-8" alt="">
+                                        <img src="./Images/ts img.png" class="w-12 h-12" alt="">
                                         <a href="#" class="ml-[60%]">TypeScript</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -170,22 +170,111 @@
                         <img src="./Images/chevron-down.svg" class="w-8 h-8 skill-dropdown" alt="">
                     </div>
 
-                    <div class="Library flex pt-6 gap-7 max-sm:gap-3">
+                    <!-- Libraries drop down -->
+                    <div class="Library flex pt-6 gap-7 max-sm:gap-3 dropDown-lib hover:cursor-pointer">
 
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
                             <h2 class="text-2xl font-semibold">Libraries & Frameworks</h2>
                             <p class="text-slate-400 w-80">Libraries and Frameworks that I prefer to work with</p>
+                            <div id="mylib" class="dropdown-content hidden flex flex-col justify-between gap-4">
+                                <div class="mt-5">
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/react-native.png"/>
+                                        <a href="#" class="ml-[60%]">Reactjs</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+                                <!-- Nodejs -->
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/nodejs.png"/>
+                                        <a href="#" class="ml-[60%]">Nodejs</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+
+                                </div>
+                                <!-- tailwind -->
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/tailwindcss.png"/>
+                                        <a href="#" class="ml-[60%]">tailwindcss</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+                                <!-- express -->
+
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/express-js.png"/>
+                                        <a href="#" class="ml-[60%]">Express.js</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/mongodb.png"/>
+                                        <a href="#" class="ml-[60%]">MongoDB</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+
+                            </div>
                         </div>
                         <img src="./Images/chevron-down.svg" class="w-8 h-8" alt="">
                     </div>
 
-
+                    <!-- Tools That I uses -->
                     <div class="Tools flex pt-6 gap-7 max-sm:gap-3">
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
                             <h2 class="text-2xl font-semibold">Tools</h2>
                             <p class="text-slate-400 w-80">Tools that I know and use on a daily basis</p>
+                            <div id="mytool" class="dropdown-content hidden flex flex-col justify-between gap-4">
+                                <div class="mt-5">
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/react-native.png"/>
+                                        <a href="#" class="ml-[60%]">Reactjs</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+                                <!-- Nodejs -->
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/nodejs.png"/>
+                                        <a href="#" class="ml-[60%]">Nodejs</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+
+                                </div>
+                                <!-- tailwind -->
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/tailwindcss.png"/>
+                                        <a href="#" class="ml-[60%]">tailwindcss</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+                                <!-- express -->
+
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/express-js.png"/>
+                                        <a href="#" class="ml-[60%]">Express.js</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+
+                                <div>
+                                    <div class="flex">
+                                        <img src="https://img.icons8.com/color/48/null/mongodb.png"/>
+                                        <a href="#" class="ml-[60%]">MongoDB</a>
+                                    </div>
+                                    <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
+                                </div>
+
+                            </div>
                         </div>
                         <img src="./Images/chevron-down.svg" class="w-8 h-8" alt="">
                     </div>
