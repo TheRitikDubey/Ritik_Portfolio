@@ -35,5 +35,22 @@ function showLibraries() {
     
     
 }
+
+let tools_drop_down=0;
+function showTools() {
+    console.log("working");
+    if(tools_drop_down===0){
+        //document.getElementById("mylib").style.transition = " visibility 2s";
+        document.getElementById("mytool").style.display = "flex";
+        tools_drop_down=1;
+    }
+    else{
+        document.getElementById("mytool").style.display = "none";
+        tools_drop_down=0;
+    }  
+}
+
+
 language.addEventListener("click",showSkills);
 libraries.addEventListener("click",showLibraries);
+tools.addEventListener("click",showTools);
