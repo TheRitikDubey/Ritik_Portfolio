@@ -69,3 +69,6 @@ a:hover{
     animation-iteration-count: 1;
 
 }
+#myDropdown{
+    display:none;
+}
