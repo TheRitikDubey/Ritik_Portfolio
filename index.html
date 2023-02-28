@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./Images/avtar-logo2.jpeg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/607db683c9.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -23,7 +25,7 @@
                 <div class="nav-items flex flex-row gap-10 font-normal max-sm:gap-4 max-sm:text-xs">
                     <a class="max-sm:hidden" href="#Home">Home</a>
                     <a class="max-sm:hidden">About</a>
-                    <a>Skills</a>
+                    <a href="#skills">Skills</a>
                     <a>Qualification</a>
                     <a>Projects</a>
                     <a>Contact</a>
@@ -32,13 +34,13 @@
 
             <div class="slide-section flex flex-row justify-evenly mt-52 ml-20 max-sm:ml-0 max-sm:mt-20">
                 <div class="social-links flex flex-col gap-6">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/theritik-dubey/" target="_blank">
                         <img class="w-5 h-5" src="./Images/official-linkedin-logo----17.png" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://github.com/TheRitikDubey" target="_blank">
                         <img class="w-5 h-5" src="./Images/git.png" alt="">
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/the_ritik__dubey/?hl=en">
                         <img class="w-5 h-5" src="./Images/insta.png" alt="">
                     </a>
                     <a href="">
@@ -113,8 +115,11 @@
             </div>
 
             <div class="skills-section ml-[20%]  max-sm:mt-10">
-                <div class="about text-center text-5xl p-4 font-semibold">Skills</div>
-                <div class="intro-line text-center text-base text-slate-500">My technical Skills</div>
+                <div class="flex items-center flex-col justify-center">
+
+                    <div class="about text-5xl p-4 font-semibold">Skills</div>
+                    <div class="intro-line text-base text-slate-500">My technical Skills</div>
+                </div>
                 <div class="skill-grid grid grid-cols-2 max-sm:grid-cols-1 max-sm:-ml-[70px]">
                     <div class="languages flex pt-6 gap-7 max-sm:gap-3 language hover:cursor-pointer">
 
@@ -180,7 +185,7 @@
                             <div id="mylib" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/react-native.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/react-native.png" />
                                         <a href="#" class="ml-[60%]">Reactjs</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -188,7 +193,7 @@
                                 <!-- Nodejs -->
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/nodejs.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/nodejs.png" />
                                         <a href="#" class="ml-[60%]">Nodejs</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -197,7 +202,7 @@
                                 <!-- tailwind -->
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/tailwindcss.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/tailwindcss.png" />
                                         <a href="#" class="ml-[60%]">tailwindcss</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -206,7 +211,7 @@
 
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/express-js.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/express-js.png" />
                                         <a href="#" class="ml-[60%]">Express.js</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -214,7 +219,7 @@
 
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/mongodb.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/mongodb.png" />
                                         <a href="#" class="ml-[60%]">MongoDB</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -234,7 +239,7 @@
                             <div id="mytool" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/000000/git.png"/>
+                                        <img src="https://img.icons8.com/color/48/000000/git.png" />
                                         <a href="#" class="ml-[60%]">Git</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -242,7 +247,7 @@
                                 <!-- git hub -->
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/000000/github--v1.png"/>
+                                        <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
                                         <a href="#" class="ml-[60%]">Git Hub</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -251,7 +256,7 @@
                                 <!-- figma -->
                                 <div>
                                     <div class="flex">
-                                        <img src="./Images/figma img.gif" class="w-12 h-12"/>
+                                        <img src="./Images/figma img.gif" class="w-12 h-12" />
                                         <a href="#" class="ml-[60%]">Figma</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -260,7 +265,7 @@
 
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/null/amazon-web-services.png"/>
+                                        <img src="https://img.icons8.com/color/48/null/amazon-web-services.png" />
                                         <a href="#" class="ml-[60%]">AWS</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -274,6 +279,126 @@
 
                 </div>
             </div>
+
+            <!-- education and experience -->
+            <div class="relative flex flex-col space-y-12 mx-auto mt-16 items-center justify-center">
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold text-3xl text-center">Qualifications</h2>
+                    <p class="text-slate-600 text-xs">My Educational Qualification & Work Experience</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="flex flex-row gap-8 ml[10%]">
+                        <div class="flex flex-row gap-8 cursor-pointer Edu-section">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h2 class="-ml-4 -mt-1">Education</h2>
+                        </div>
+
+                        <div class="flex flex-row gap-8 cursor-pointer work-section  text-violet-700">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h2 class="-ml-4 -mt-1">Work</h2>
+                        </div>
+                    </div>
+                    <!-- wrok & exp -->
+                    <div class="mt-10 flex  w-[400px]">
+
+                        <div class="education hidden" id="curr-edu">
+                            <div>
+                                <h2>B.Tech in Computer Science</h2>
+                                <p class="text-slate-500 text-sm">Brainware University</p>
+                                <div class="flex gap-2 mt-1 text-slate-500 text-sm">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p>2019 2023</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-violet-700 h-[19rem] w-[2px]  z-0 flex flex-col justify-between">
+                                <span
+                                    class="rounded-[50%] bg-violet-900 w-[13px] h-[13px] inline-block z-50  -ml-[5px]"></span>
+
+                                <span
+                                    class="rounded-[50%] bg-violet-900 w-[13px] h-[13px] inline-block z-50  -ml-[5px]"></span>
+
+
+                                <span
+                                    class="rounded-[50%] bg-violet-900 w-[13px] h-[13px] inline-block z-50  -ml-[5px]"></span>
+                            </div>
+
+                            <div class="mt-[8.5rem]">
+                                <h2>Senior Secondary School
+                                </h2>
+                                <p class="text-slate-500 text-sm">S R C Inter College Katihar, Bihar</p>
+                                <div class="flex gap-1 text-slate-500 text-sm mt-2">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p class="-mt-1">2016 2018</p>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h2>Secondary School</h2>
+                                <p>Rama Krishna Mission Vidyamandir,Katihar Bihar</p>
+                                <div class="flex gap-1">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p class="-mt-1">2011 2016</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="work" id="proffesional-section">
+                            <div>
+                                <h2>Software Engineer Intern</h2>
+                                <p class="text-slate-500 text-sm">ByteLearn</p>
+                                <div class="flex gap-2 mt-1 text-slate-500 text-sm">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p>April 2022 Feb 2023</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-violet-700 h-[10rem] w-[2px]  z-0 flex flex-col justify-between">
+                                <span
+                                    class="rounded-[50%] bg-violet-900 w-[13px] h-[13px] inline-block z-50  -ml-[5px]"></span>
+
+                                <span
+                                    class="rounded-[50%] bg-violet-900 w-[13px] h-[13px] inline-block z-50  -ml-[5px]"></span>
+                            </div>
+
+                            <div class="mt-[8.5rem]">
+                                <h2>Front End developer
+                                </h2>
+                                <p class="text-slate-500 text-sm">Web Idea solution LLP</p>
+                                <div class="flex gap-1 text-slate-500 text-sm mt-2">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <p class="-mt-1">2022 Jan 2022 April</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Projects section -->
+            <div class="flex ml-[28%] w-[500px] h-[200px] mt-20">
+                
+            </div>
+
+            <!-- Contact Me -->
+            <div class="mt-8">
+                <div>
+                    <div class="flex justify-center items-center flex-col gap-2">
+                        
+                    <h2 class="font-bold text-2xl">Contact Me</h2>
+                    <p class="text-slate-600 text-sm">Want to connect? My inbox is always open!</p>
+                    </div>
+                </div>
+
+            </div>
             <h1 class="text-3xl mt-20">END</h1>
 
         </div>
@@ -286,6 +411,9 @@
         feather.replace()
     </script>
     <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
