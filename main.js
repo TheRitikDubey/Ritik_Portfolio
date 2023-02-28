@@ -3,6 +3,10 @@ let skillDorpdown=document.querySelectorAll(".skill-dropdown")
 let language=document.querySelector(".language")
 let libraries=document.querySelector(".dropDown-lib")
 let tools=document.querySelector(".Tools")
+let education=document.querySelector(".Edu-section")
+
+let work=document.querySelector(".work-section")
+
 let skill_drop_down=0;
 function showSkills() {
     console.log("working");
@@ -49,8 +53,34 @@ function showTools() {
         tools_drop_down=0;
     }  
 }
+let curr_section=0;
+function change_to_student_section(){
+    
+    document.getElementById("curr-edu").style.display="grid"
+    
+    document.getElementById("proffesional-section").style.display="none"
 
+    education.style.color="rgb(109 40 217)";
+
+    work.style.color="gray";
+        
+}
+
+function change_to_pro_section(){
+    
+    document.getElementById("curr-edu").style.display="none"
+    
+    document.getElementById("proffesional-section").style.display="flex"
+
+    work.style.color="rgb(109 40 217)";
+
+    education.style.color="gray";
+    
+}
 
 language.addEventListener("click",showSkills);
 libraries.addEventListener("click",showLibraries);
 tools.addEventListener("click",showTools);
+education.addEventListener("click",change_to_student_section)
+
+work.addEventListener("click",change_to_pro_section)
