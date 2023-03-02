@@ -14,13 +14,13 @@
 </head>
 
 <body>
-    <div id="wrapper" class="p-4">
+    <div id="wrapper" class="p-4 overflow-x-hidden">
         <div class="page-width">
-            <div class="nav flex flex-row justify-evenly mt-8 max-sm:text-sm max-sm:gap-2">
-                <div class="nav-name max-sm:text-s font-semibold">
+            <div class="nav flex flex-row gap-6 mt-8 max-sm:text-sm md:justify-evenly">
+                <div class="nav-name text-xs font-semibold">
                     Ritik Dubey
                 </div>
-                <div class="nav-items flex flex-row gap-10 font-normal max-sm:gap-4 max-sm:text-xs">
+                <div class="nav-items flex flex-row gap-10 font-normal max-sm:gap-2 max-sm:text-xs">
                     <a class="max-sm:hidden" href="#Home">Home</a>
                     <a class="max-sm:hidden">About</a>
                     <a href="#skills">Skills</a>
@@ -97,13 +97,13 @@
                 <img src="./Images/arrow-down.png" class="w-6 h-6" alt="">
             </div>
 
-            <div class="about-me mt-40 max-sm:mt-12">
+            <div class="about-me mt-40 max-sm:mt-12" id="About">
                 <div class="about text-center text-5xl max-sm:text-4xl p-4 font-semibold">About Me</div>
                 <div class="intro-line text-center text-base text-slate-500">My introduction</div>
                 <div
-                    class="img-and-info flex flex-row justify-evenly items-center mt-14 max-sm:flex-col  max-sm:gap-10">
-                    <img src="./Images/avtar-logo1.jpeg" class="w-80 h-80 rounded-lg max-sm:ml-16" alt="">
-                    <div class="my-info w-96 text-slate-500 p-6 max-sm:ml-10">
+                    class="img-and-info flex flex-row justify-evenly items-center -ml-6 md:ml-0 mt-14 max-sm:flex-col  max-sm:gap-10">
+                    <img src="./Images/avtar-logo1.jpeg" class="w-80 h-80 rounded-lg ml-[2rem] md:ml-0" alt="">
+                    <div class="my-info w-96 text-slate-500 p-6 text-sm md:text-base max-sm:ml-10">
                         Hey there,👋 I'm Ritik Dubey a 22-year-old CSE undergrad who is passionate about Software
                         Development, UI/UX Design and Product Management. Currently, I'm pursuing my career as a Full
                         Stack Web Developer 👨🏻‍💻 with 1+ years of professional and freelance experience. I share my
@@ -115,16 +115,16 @@
             <div class="skills-section ml-[20%]  max-sm:mt-10">
                 <div class="flex items-center flex-col justify-center">
 
-                    <div class="about text-5xl p-4 font-semibold">Skills</div>
+                    <div class="about text-3xl md:text-5xl md:p-3 font-semibold" id="skills">Skills</div>
                     <div class="intro-line text-base text-slate-500">My technical Skills</div>
                 </div>
                 <div class="skill-grid grid grid-cols-2 max-sm:grid-cols-1 max-sm:-ml-[70px]">
-                    <div class="languages flex pt-6 gap-7 max-sm:gap-3 language hover:cursor-pointer">
+                    <div class="languages flex pt-6 gap-2 md:gap-7 language hover:cursor-pointer">
 
                         <img src="./Images/codelogo.svg" class="w-8 h-8 skill-dropdown" alt="">
                         <div class="content">
-                            <h2 class="text-2xl font-semibold">Languages</h2>
-                            <p class="text-slate-400 w-80">Languages that I have picked up over the years</p>
+                            <h2 class="md:text-2xl font-semibold">Languages</h2>
+                            <div class="text-slate-400 break-words w-[17rem] md:w-80 text-xs md:text-base">Languages that I have picked up over the years</div>
                             <div id="myDropdown" class="dropdown-content flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
@@ -170,7 +170,7 @@
 
                             </div>
                         </div>
-                        <img src="./Images/chevron-down.svg" class="w-8 h-8 skill-dropdown" alt="">
+                        <img src="./Images/chevron-down.svg" class="w-8 md:ml-0 -ml-[1rem] h-8 skill-dropdown" alt="">
                     </div>
 
                     <!-- Libraries drop down -->
@@ -178,8 +178,8 @@
 
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
-                            <h2 class="text-2xl font-semibold">Libraries & Frameworks</h2>
-                            <p class="text-slate-400 w-80">Libraries and Frameworks that I prefer to work with</p>
+                            <h2 class="md:text-2xl font-semibold">Libraries & Frameworks</h2>
+                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Libraries and Frameworks that I prefer to work with</p>
                             <div id="mylib" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
@@ -225,15 +225,15 @@
 
                             </div>
                         </div>
-                        <img src="./Images/chevron-down.svg" class="w-8 h-8" alt="">
+                        <img src="./Images/chevron-down.svg" class="w-8 h-8 md:ml-0 -ml-[1.5rem]" alt="">
                     </div>
 
                     <!-- Tools That I uses -->
                     <div class="Tools flex pt-6 gap-7 max-sm:gap-3 hover:cursor-pointer">
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
-                            <h2 class="text-2xl font-semibold">Tools</h2>
-                            <p class="text-slate-400 w-80">Tools that I know and use on a daily basis</p>
+                            <h2 class="md:text-2xl font-semibold">Tools</h2>
+                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Tools that I know and use on a daily basis</p>
                             <div id="mytool" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
@@ -272,7 +272,7 @@
 
                             </div>
                         </div>
-                        <img src="./Images/chevron-down.svg" class="w-8 h-8" alt="">
+                        <img src="./Images/chevron-down.svg" class="w-8 h-8 md:ml-0 -ml-[1.5rem]" alt="">
                     </div>
 
                 </div>
@@ -382,20 +382,62 @@
             </div>
 
             <!-- Projects section -->
-            <div class="flex ml-[28%] w-[500px] h-[200px] mt-20">
+            <div class="flex ml-[28%] w-[500px] h-[200px] mt-10">
                 
             </div>
 
             <!-- Contact Me -->
-            <div class="mt-8">
+            <div class="mt-1">
                 <div>
                     <div class="flex justify-center items-center flex-col gap-2">
                         
                     <h2 class="font-bold text-2xl">Contact Me</h2>
                     <p class="text-slate-600 text-sm">Want to connect? My inbox is always open!</p>
                     </div>
-                </div>
 
+                    <!-- Form -->
+                    <div class="flex mt-[4rem] relative md:w-[1080px] mx-[20%]  items-center gap-32">
+                        <div class="content flex flex-col gap-20">
+                            <a href="" class="flex gap-4">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div class="flex flex-col -mt-2">
+                                    <h2 class="text-xl font-medium">Email</h2>
+                                    <p class="text-slate-500">ritik.dubeyy20@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/theritik-dubey/" target="_blank" class="flex gap-4">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div class="flex flex-col -mt-2">
+                                    <h2 class="text-xl font-medium">Linkdin</h2>
+                                    <p class="text-slate-500">ritikdubey20</p>
+                                </div>
+                            </a>
+                            <a href="#" class="flex gap-4">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                <div class="flex flex-col -mt-2">
+                                    <h2 class="text-2xl font-medium">Location</h2>
+                                    <p class="text-slate-500">Kolkata,India</p>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+                        <div class="boxes grid grid-cols-1 gap-4">
+                            <div class="flex gap-4">
+                            <input type="text" placeholder="Name" class="border-2 border-blue-700 w-[190px] h-20 p-2 rounded-md">
+                            <input type="text" placeholder="Email" class="border-2 border-blue-700 w-[190px] h-20 p-2 rounded-md">
+                            </div>
+                            <input type="text" placeholder="Subject" class="border-2 border-blue-700 w-[400px] h-20 p-2 rounded-md">
+                            <input type="text" placeholder="Message" class="border-2 border-blue-700 w-[400px] h-[200px] p-2 rounded-md">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center  mt-10">
+                    <button class="bg-violet-700 p-4 flex gap-2 rounded-md" >Send ME <i class="w-5 h-6" data-feather="send"></i></button>
+                    
+                </div>
             </div>
             <h1 class="text-3xl mt-20">END</h1>
 
