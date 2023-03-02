@@ -80,12 +80,9 @@ a:hover{
     display: grid;
     /* grid-row-start: 1fr; */
     grid-template-columns: 2fr 0fr 2fr;
-    column-gap: 1.2rem;
 }
 .work{
     display: grid;
-    /* grid-row-start: 1fr; */
     grid-template-columns: 2fr 0fr 2fr;
-    column-gap: 1.2rem;
 
 }
