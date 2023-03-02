@@ -33,21 +33,21 @@
             <div class="slide-section flex flex-row justify-evenly mt-52 ml-20 max-sm:ml-0 max-sm:mt-20">
                 <div class="social-links flex flex-col gap-6">
                     <a href="https://www.linkedin.com/in/theritik-dubey/" target="_blank">
-                        <img class="w-5 h-5" src="./Images/official-linkedin-logo----17.png" alt="">
+                        <img class="w-8 h-8" src="./Images/Linnkdin annimated.gif" alt="">
                     </a>
                     <a href="https://github.com/TheRitikDubey" target="_blank">
-                        <img class="w-5 h-5" src="./Images/git.png" alt="">
+                        <img class="w-8 h-8" src="./Images/Git animation.gif" alt="">
                     </a>
                     <a href="https://www.instagram.com/the_ritik__dubey/?hl=en">
-                        <img class="w-5 h-5" src="./Images/insta.png" alt="">
+                        <img class="w-8 h-8" src="./Images/insta_animation.gif" alt="">
                     </a>
                     <a href="">
-                        <img class="w-5 h-5" src="./Images/twitter.png" alt="">
+                        <img class="w-8 h-8" src="./Images/twitter animation.gif" alt="">
                     </a>
                 </div>
                 <div class="my-info max-sm:hidden">
                     <div class="ritik-info text-5xl font-bold">Hi, I'm Ritik dubey</div>
-                    <div class="ritik-info text-xl mt-4 font-medium">I am a |developer</div>
+                    <div class="ritik-info text-xl mt-4 font-medium">I am a <span class="role"></span> developer</div>
                     <div class="ritik-info text-base font-light mt-4">Building Software to solve real problems</div>
                     <div class="ritik-info mt-10">
                         <button class="btn p-4 text-base text-white font-semibold flex gap-3 align-baseline">Contact Me
@@ -261,7 +261,7 @@
                                 <!-- git hub -->
                                 <div>
                                     <div class="flex">
-                                        <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
+                                        <img src="./Images/Git animation.gif" />
                                         <a href="#" class="md:ml-[60%] ml-[50%]">Git Hub</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
@@ -510,6 +510,22 @@
         feather.replace()
     </script>
     <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack",
+        "Web-App",
+        "FrontEnd",
+        "Backend",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 40,
+      backDelay: 1000,
+    });
+  </script>
 </body>
 
 </html>
