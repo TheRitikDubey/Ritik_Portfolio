@@ -22,11 +22,11 @@
                 </div>
                 <div class="nav-items flex flex-row gap-10 font-normal max-sm:gap-2 max-sm:text-xs">
                     <a class="max-sm:hidden" href="#Home">Home</a>
-                    <a class="max-sm:hidden">About</a>
+                    <a class="max-sm:hidden" href="#about">About</a>
                     <a href="#skills">Skills</a>
-                    <a>Qualification</a>
+                    <a href="#qualification">Qualification</a>
                     <a>Projects</a>
-                    <a>Contact</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
 
@@ -97,26 +97,39 @@
                 <img src="./Images/arrow-down.png" class="w-6 h-6" alt="">
             </div>
 
-            <div class="about-me mt-40 max-sm:mt-12" id="About">
+            <div class="about-me mt-40 max-sm:mt-12" id="about">
                 <div class="about text-center text-5xl max-sm:text-4xl p-4 font-semibold">About Me</div>
                 <div class="intro-line text-center text-base text-slate-500">My introduction</div>
                 <div
                     class="img-and-info flex flex-row justify-evenly items-center -ml-6 md:ml-0 mt-14 max-sm:flex-col  max-sm:gap-10">
                     <img src="./Images/avtar-logo1.jpeg" class="w-80 h-80 rounded-lg ml-[2rem] md:ml-0" alt="">
-                    <div class="my-info w-96 text-slate-500 p-6 text-sm md:text-base max-sm:ml-10">
-                        Hey there,👋 I'm Ritik Dubey a 22-year-old CSE undergrad who is passionate about Software
-                        Development, UI/UX Design and Product Management. Currently, I'm pursuing my career as a Full
-                        Stack Web Developer 👨🏻‍💻 with 1+ years of professional and freelance experience. I share my
-                        learnings through speaking engagements and write-ups. ✍🏻
+                    <div>
+                        <div class="my-info w-96 text-slate-500 p-6 text-sm md:text-base max-sm:ml-10">
+                            Hey there,👋 I'm Ritik Dubey a 22-year-old CSE undergrad who is passionate about Software
+                            Development, UI/UX Design and Product Management. Currently, I'm pursuing my career as a
+                            Full
+                            Stack Web Developer 👨🏻‍💻 with 1+ years of professional and freelance experience. I share
+                            my
+                            learnings through speaking engagements and write-ups. ✍🏻
+                        </div>
+                        <a href="https://drive.google.com/file/d/1iEkQpZh9f1LaHkiv5lYtxa3dzrieTu4W/view?usp=sharing"
+                            target="_blank" class="flex justify-center items-center">
+                            <button
+                                class="bg-violet-600 p-4 gap-4 align-baseline rounded-md text-center flex text-white">
+                                <p>Resume</p> <i class="fa-regular fa-file-pdf mt-[3px]"></i>
+                            </button>
+
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div class="skills-section ml-[20%]  max-sm:mt-10">
+            <div class="skills-section ml-[20%] mt-10  md:mt-20">
                 <div class="flex items-center flex-col justify-center">
-
-                    <div class="about text-3xl md:text-5xl md:p-3 font-semibold" id="skills">Skills</div>
-                    <div class="intro-line text-base text-slate-500">My technical Skills</div>
+                    <div class="-ml-[3rem] md:-ml-[8rem]">
+                        <div class="about text-3xl md:text-5xl md:p-3 font-semibold" id="skills">Skills</div>
+                        <div class="intro-line text-base text-slate-500">My technical Skills</div>
+                    </div>
                 </div>
                 <div class="skill-grid grid grid-cols-2 max-sm:grid-cols-1 max-sm:-ml-[70px]">
                     <div class="languages flex pt-6 gap-2 md:gap-7 language hover:cursor-pointer">
@@ -124,12 +137,13 @@
                         <img src="./Images/codelogo.svg" class="w-8 h-8 skill-dropdown" alt="">
                         <div class="content">
                             <h2 class="md:text-2xl font-semibold">Languages</h2>
-                            <div class="text-slate-400 break-words w-[17rem] md:w-80 text-xs md:text-base">Languages that I have picked up over the years</div>
+                            <div class="text-slate-400 break-words w-[17rem] md:w-80 text-xs md:text-base">Languages
+                                that I have picked up over the years</div>
                             <div id="myDropdown" class="dropdown-content flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
                                         <img src="./Images/c++.png" class="w-12 h-12" alt="">
-                                        <a href="#" class="ml-[60%]">C/C++</a>
+                                        <a href="#" class="md:md:ml-[60%] ml-[50%] ml-[50%]">C/C++</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -137,7 +151,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="./Images/java IMG.gif" class="w-12 h-12" alt="">
-                                        <a href="#" class="ml-[60%]">JAVA</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">JAVA</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
 
@@ -146,7 +160,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="./Images/JS IMG.gif" class="w-12 h-12" alt="">
-                                        <a href="#" class="ml-[60%]">JavaScript</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">JavaScript</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -155,7 +169,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="./Images/Python img.gif" class="w-12 h-12" alt="">
-                                        <a href="#" class="ml-[60%]">Python</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Python</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -163,14 +177,14 @@
                                 <div>
                                     <div class="flex">
                                         <img src="./Images/ts img.png" class="w-12 h-12" alt="">
-                                        <a href="#" class="ml-[60%]">TypeScript</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">TypeScript</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
 
                             </div>
                         </div>
-                        <img src="./Images/chevron-down.svg" class="w-8 md:ml-0 -ml-[1rem] h-8 skill-dropdown" alt="">
+                        <img src="./Images/chevron-down.svg" class="w-8 md:ml-0 -ml-[1.5rem] h-8 skill-dropdown" alt="">
                     </div>
 
                     <!-- Libraries drop down -->
@@ -179,12 +193,13 @@
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
                             <h2 class="md:text-2xl font-semibold">Libraries & Frameworks</h2>
-                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Libraries and Frameworks that I prefer to work with</p>
+                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Libraries and Frameworks
+                                that I prefer to work with</p>
                             <div id="mylib" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/react-native.png" />
-                                        <a href="#" class="ml-[60%]">Reactjs</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Reactjs</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -192,7 +207,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/nodejs.png" />
-                                        <a href="#" class="ml-[60%]">Nodejs</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Nodejs</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
 
@@ -201,7 +216,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/tailwindcss.png" />
-                                        <a href="#" class="ml-[60%]">tailwindcss</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">tailwindcss</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -210,7 +225,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/express-js.png" />
-                                        <a href="#" class="ml-[60%]">Express.js</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Express.js</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -218,7 +233,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/mongodb.png" />
-                                        <a href="#" class="ml-[60%]">MongoDB</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">MongoDB</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -233,12 +248,13 @@
                         <img src="./Images/codelogo.svg" class="w-8 h-8" alt="">
                         <div class="content">
                             <h2 class="md:text-2xl font-semibold">Tools</h2>
-                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Tools that I know and use on a daily basis</p>
+                            <p class="text-slate-400 w-[17rem] text-xs md:text-base md:w-80">Tools that I know and use
+                                on a daily basis</p>
                             <div id="mytool" class="dropdown-content hidden flex flex-col justify-between gap-4">
                                 <div class="mt-5">
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/000000/git.png" />
-                                        <a href="#" class="ml-[60%]">Git</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Git</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -246,7 +262,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/000000/github--v1.png" />
-                                        <a href="#" class="ml-[60%]">Git Hub</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Git Hub</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
 
@@ -255,7 +271,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="./Images/figma img.gif" class="w-12 h-12" />
-                                        <a href="#" class="ml-[60%]">Figma</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">Figma</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -264,7 +280,7 @@
                                 <div>
                                     <div class="flex">
                                         <img src="https://img.icons8.com/color/48/null/amazon-web-services.png" />
-                                        <a href="#" class="ml-[60%]">AWS</a>
+                                        <a href="#" class="md:ml-[60%] ml-[50%]">AWS</a>
                                     </div>
                                     <div class="w-[100%] mt-3 rounded-sm h-1 bg-violet-700"></div>
                                 </div>
@@ -297,12 +313,12 @@
                         </div>
                     </div>
                     <!-- wrok & exp -->
-                    <div class="mt-10 flex  w-[400px]">
+                    <div class="mt-10 flex w-[250px]  md:w-[400px]">
 
-                        <div class="education hidden" id="curr-edu">
+                        <div class="education hidden gap-[1rem] md:gap-[1.2rem]" id="curr-edu">
                             <div>
                                 <h2>B.Tech in Computer Science</h2>
-                                <p class="text-slate-500 text-sm">Brainware University</p>
+                                <p class="text-slate-500 text-xs md:text-sm">Brainware University</p>
                                 <div class="flex gap-2 mt-1 text-slate-500 text-sm">
                                     <i class="fa-solid fa-calendar"></i>
                                     <p>2019 2023</p>
@@ -324,7 +340,7 @@
                             <div class="mt-[8.5rem]">
                                 <h2>Senior Secondary School
                                 </h2>
-                                <p class="text-slate-500 text-sm">S R C Inter College Katihar, Bihar</p>
+                                <p class="text-slate-500 text-xs md:text-sm">S R C Inter College Katihar, Bihar</p>
                                 <div class="flex gap-1 text-slate-500 text-sm mt-2">
                                     <i class="fa-solid fa-calendar"></i>
                                     <p class="-mt-1">2016 2018</p>
@@ -334,21 +350,22 @@
 
                             <div>
                                 <h2>Secondary School</h2>
-                                <p>Rama Krishna Mission Vidyamandir,Katihar Bihar</p>
-                                <div class="flex gap-1">
+                                <p class="text-slate-500 text-xs md:text-sm">Rama Krishna Mission Vidyamandir,Katihar
+                                    Bihar</p>
+                                <div class="flex gap-2 mt-1 text-slate-500">
                                     <i class="fa-solid fa-calendar"></i>
                                     <p class="-mt-1">2011 2016</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="work" id="proffesional-section">
+                        <div class="work gap-[1rem] md:gap-[1.2rem]" id="proffesional-section">
                             <div>
                                 <h2>Software Engineer Intern</h2>
-                                <p class="text-slate-500 text-sm">ByteLearn</p>
+                                <p class="text-slate-500 text-xs md:text-sm">ByteLearn</p>
                                 <div class="flex gap-2 mt-1 text-slate-500 text-sm">
                                     <i class="fa-solid fa-calendar"></i>
-                                    <p>April 2022 Feb 2023</p>
+                                    <p>April 2022 - Feb 2023</p>
                                 </div>
                             </div>
 
@@ -363,10 +380,10 @@
                             <div class="mt-[8.5rem]">
                                 <h2>Front End developer
                                 </h2>
-                                <p class="text-slate-500 text-sm">Web Idea solution LLP</p>
+                                <p class="text-slate-500 text-xs md:text-sm">Web Idea solution LLP</p>
                                 <div class="flex gap-1 text-slate-500 text-sm mt-2">
                                     <i class="fa-solid fa-calendar"></i>
-                                    <p class="-mt-1">2022 Jan 2022 April</p>
+                                    <p class="-mt-1">2022 Jan - 2022 April</p>
                                 </div>
                             </div>
 
@@ -383,20 +400,21 @@
 
             <!-- Projects section -->
             <div class="flex ml-[28%] w-[500px] h-[200px] mt-10">
-                
+
             </div>
 
             <!-- Contact Me -->
             <div class="mt-1">
                 <div>
                     <div class="flex justify-center items-center flex-col gap-2">
-                        
-                    <h2 class="font-bold text-2xl">Contact Me</h2>
-                    <p class="text-slate-600 text-sm">Want to connect? My inbox is always open!</p>
+
+                        <h2 class="font-bold text-2xl">Contact Me</h2>
+                        <p class="text-slate-600 text-sm">Want to connect? My inbox is always open!</p>
                     </div>
 
                     <!-- Form -->
-                    <div class="flex mt-[4rem] relative md:w-[1080px] mx-[20%]  items-center gap-32">
+                    <div
+                        class="flex flex-col md:flex-row mt-[4rem] relative md:w-[1080px] md:mx-[20%]  items-center gap-32">
                         <div class="content flex flex-col gap-20">
                             <a href="" class="flex gap-4">
                                 <i class="fa-solid fa-envelope"></i>
@@ -425,26 +443,67 @@
                         </div>
 
                         <div class="boxes grid grid-cols-1 gap-4">
-                            <div class="flex gap-4">
-                            <input type="text" placeholder="Name" class="border-2 border-blue-700 w-[190px] h-20 p-2 rounded-md">
-                            <input type="text" placeholder="Email" class="border-2 border-blue-700 w-[190px] h-20 p-2 rounded-md">
+                            <div class="flex flex-col md:flex-row gap-4">
+                                <input type="text" placeholder="Name"
+                                    class="border-2 border-blue-700 w-full md:w-[190px] h-20 p-2 rounded-md">
+                                <input type="text" placeholder="Email"
+                                    class="border-2 border-blue-700 w-full md:w-[190px] h-20 p-2 rounded-md">
                             </div>
-                            <input type="text" placeholder="Subject" class="border-2 border-blue-700 w-[400px] h-20 p-2 rounded-md">
-                            <input type="text" placeholder="Message" class="border-2 border-blue-700 w-[400px] h-[200px] p-2 rounded-md">
+                            <input type="text" placeholder="Subject"
+                                class="border-2 border-blue-700 w-full md:w-[400px] h-20 p-2 rounded-md">
+                            <input type="text" placeholder="Message"
+                                class="border-2 border-blue-700 w-full md:w-[400px] h-[200px] p-2 rounded-md">
                         </div>
                     </div>
                 </div>
                 <div class="flex justify-center items-center  mt-10">
-                    <button class="bg-violet-700 p-4 flex gap-2 rounded-md" >Send ME <i class="w-5 h-6" data-feather="send"></i></button>
-                    
+                    <button class="bg-violet-600 text-white  p-4 flex gap-2 rounded-md">Send ME <i class="w-5 h-6"
+                            data-feather="send"></i></button>
+
                 </div>
             </div>
-            <h1 class="text-3xl mt-20">END</h1>
+
 
         </div>
 
 
         <!-- end with wrapper -->
+    </div>
+
+    <!------------------------------------- Footer ----------------------------------------------->
+    <div class=" bg-violet-500 text-white  p-8 mt-10 w-[100%] h-[100%] md:h-72 m-0">
+        <div class="flex flex-col gap-10 md:flex-row md:justify-around w-[1000px] mx-auto">
+            <!-- first -->
+            <div class="flex flex-col gap-2">
+                <h2 class="text-3xl font-bold">Ritik</h2>
+                <h2 class="text-3xl font-bold">Dubey</h2>
+
+                <p>Full stack Developer</p>
+
+            </div>
+
+            <!-- second -->
+            <div class="flex flex-col md:flex-row gap-1 md:gap-12">
+                <div>
+                    <a href="#about" class="hover:text-slate-300">About</a>
+                </div>
+
+                <div>
+                    <a href="#project" class="hover:text-slate-300">Projects</a>
+                </div>
+
+                <div>
+                    <a href="#contact" class="hover:text-slate-300">Contact</a>
+                </div>
+            </div>
+
+            <!-- third -->
+            <div class="flex gap-6  md:flex-row">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
     </div>
 
     <script>
